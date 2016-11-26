@@ -16,12 +16,12 @@ Pod::Spec.new do |s|
   #
 
   s.name          = "UIControlTool"
-  s.version       = "1.0.0"
+  s.version       = "0.0.1"
   s.summary       = "UIControl category observe UIControl status ,block return."
-  s.license       = 'MIT'
+  s.license       = "MIT"
   s.homepage      = "https://github.com/lshdfp726/UIControlTool"
   s.author        = { "liusonghong" => "liusonghong@wondersgroup.com" }
-  s.platform      = :ios, '8.0'
+  s.platform      = :ios, "8.0"
   s.source        = { :git => "https://github.com/lshdfp726/UIControlTool.git", :tag => s.version.to_s }
   s.source_files  = 'UIControlCategory/**/*.{h,m}'
   s.framework     = 'Foundation', 'UIKit'
