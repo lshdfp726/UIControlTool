@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.author        = { "liusonghong" => "liusonghong@wondersgroup.com" }
   s.platform      = :ios, "8.0"
   s.requires_arc  = true
-  s.source        = { :git => "https://github.com/lshdfp726/UIControlTool.git", :tag => s.version.to_s }
+  s.source        = { :git => "https://github.com/lshdfp726/UIControlTool.git", :tag => "0.0.1" }
   s.source_files  = 'UIControlCategory/**/*.{h,m}'
   s.framework     = 'Foundation', 'UIKit'
   s.description   = <<-DESC
